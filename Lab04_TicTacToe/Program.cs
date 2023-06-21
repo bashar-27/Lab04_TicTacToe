@@ -7,7 +7,7 @@ namespace Lab04_TicTacToe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("TicTac Toe Game!");
             StartGame();
         }
 
@@ -18,7 +18,6 @@ namespace Lab04_TicTacToe
             Player p2 = new Player();
 
             p1.Name = "p1";
-
             p1.IsTurn = true;
             p1.Marker = "X";
             p2.Name = "Computer";
@@ -30,7 +29,7 @@ namespace Lab04_TicTacToe
             Console.WriteLine(Winner.Name);
             if (Winner != null)
             {
-                Console.WriteLine($"{Winner.Name} is winner");
+                Console.WriteLine($"{Winner.Name} IS WINNER Congrat!!");
 
             }
             else
